@@ -545,3 +545,37 @@ button:focus-visible {
   font-size: 13px;
   color: #94A3B8;
 }
+.formulaire {
+    width: 500px;
+    margin: 30px auto;
+    padding: 30px;
+    background-color: white;
+    border: 2px solid #f3f3f6;
+    border-radius: 10px;
+}
+
+.form-liste {
+    margin-bottom: 10px;
+}
+
+.form-liste label {
+    display: block;
+    margin-bottom: 3px;
+    font-weight:700;
+}
+.form-liste input,
+.form-liste textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+}
+.form-liste textarea {
+    height: 120px;
+}
+.formulaire button {
+    padding: 10px 30px;
+    background-color: rgb(300, 100, 0);
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
