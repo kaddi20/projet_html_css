@@ -129,6 +129,9 @@ button:focus-visible {
   border-radius: 12px;
   box-shadow: 0 1px 3px rgba(15, 27, 45, 0.08);
 }
+.carte:hover{
+  transform: translateY(-10);
+}
 
 .icone {
   width: 48px;
@@ -178,15 +181,6 @@ button:focus-visible {
   font-size: 24px;
   font-weight: 700;
   color: #0F1B2D;
-}
-
-.logo::after {
-  content: "";
-  width: 10px;
-  height: 10px;
-  margin-left: 8px;
-  background-color: #FF6B2C;
-  border-radius: 50%;
 }
 
 .menu {
