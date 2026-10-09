@@ -104,7 +104,7 @@ button:focus-visible {
 }
 
 .bouton-principal:hover {
-  background-color: #F05817;
+  background-color: #F05817; 
 }
 
 .bouton-secondaire {
@@ -114,7 +114,7 @@ button:focus-visible {
 }
 
 .bouton-secondaire:hover {
-  background-color: #F3F4F6;
+  background-color: #ec642a; 
 }
 
 .cartes {
@@ -129,8 +129,14 @@ button:focus-visible {
   border-radius: 12px;
   box-shadow: 0 1px 3px rgba(15, 27, 45, 0.08);
 }
-.carte:hover{
-  transform: translateY(-10);
+
+.carte.formule:hover{
+  transform: translateY(-15px);
+  border:2px solid #F05817 ;
+}
+.carte-programme:hover{
+  transform: translateY(-15px);
+  box-shadow: 0 10px 25px rgba(15, 27, 45, 0.15);
 }
 
 .icone {
@@ -248,6 +254,7 @@ button:focus-visible {
   border: 1px solid #E5E7EB;
   box-shadow: 0 10px 25px rgba(15, 27, 45, 0.15);
 }
+
 
 .chiffres {
   display: flex;
@@ -479,7 +486,7 @@ button:focus-visible {
 }
 
 .formule-populaire {
-  border: 2px solid #FF6B2C;
+  /* border: 2px solid ; */
   box-shadow: 0 10px 25px rgba(255, 107, 44, 0.2);
 }
 
