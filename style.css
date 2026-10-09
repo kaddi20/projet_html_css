@@ -711,3 +711,12 @@ button:focus-visible {
     gap: 12px;
   }
 }
+.logo{
+  display: flex;
+  align-items: center;
+}
+.logo img{
+  width: 150px;
+  height: auto;
+  display: block;
+}
